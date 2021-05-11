@@ -12,7 +12,6 @@
         <header>
             <div id="logo"><img src="./images/logo.svg" alt="Logo"></div>
         </header>
-
         <main class="container">
             <section id="balance">
                 <h2 class="sr-only">Balanço</h2>
@@ -41,11 +40,10 @@
                     <p id="total-card">R$ 0,00</p>
                 </div>
            </section>
-
             <section id="transaction">
                 <h2 class="sr-only">Transações</h2>
 
-                <a href="#"  class="button new">+ Nova Transação</a>
+                <a href="#"  class="button new"></a>
                 <table id="data-table">
                     <thead>
                         <tr>
@@ -62,7 +60,6 @@
                 </table>
             </section>
         </main>
-
         <div class="modal-overlay">
             <div class="modal">
                 <div id="form"><h2 id=nova-entrada>Nova Entrada</h2></div>
@@ -78,8 +75,8 @@
         
                     <div class="input-group">
                         <label class="sr-only" for="amount">Valor</label>
-                        <input type="number" step="0.01" id="amount" name="amount" placeholder="0,00" />
-                        <small class="help">Use o sinal - (negativo) para despesas e , (vírgula) para casas decimais</small>
+                        <input onkeyup="formatarMoeda(z)" type="number" step="0.01" id="amount" name="amount" placeholder="0,00" />
+                        <small class="help"></small>
                     </div>
         
                     <div class="input-group">
@@ -110,7 +107,7 @@
                     <div class="input-group">
                         <label class="sr-only" for="amount">Valor</label>
                         <input type="number" step="0.01" id="amount2" name="amount" placeholder="0,00" />
-                        <small class="help">Use o sinal - (negativo) para despesas e , (vírgula) para casas decimais</small>
+                        <small class="help"></small>
                     </div>
         
                     <div class="input-group">
@@ -124,8 +121,7 @@
                     </div>
                 </form>
             </div>
-        </div>
-       
+        </div>     
         <footer>
             <div id="logo2"><img src="./images/logo2.svg" alt="Logo" height="50rem"></div>
         </footer>

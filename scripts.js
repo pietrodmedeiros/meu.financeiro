@@ -136,8 +136,8 @@ const NewTable = {
 
 const others = {
     formatAmount(value){
-        value = Number(value.replace(/\,\./g, "")) * (100)
-        return value
+        value = value * (100)
+        return Math.round(value)
     },
 
     formatAmountNegative(value){
