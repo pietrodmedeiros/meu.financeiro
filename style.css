@@ -110,14 +110,14 @@ button:hover {
 #click:hover {
     transform: scale(1.5);
 }
-/* Header ===================== */
+/* =============== Header =============== */
 header {
     background: #2D4A22;
     padding: 5rem 0 10rem;
     text-align: center;
 }
 
-/* Balance ===================== */
+/* =============== Balance =============== */
 #balance {
     margin-top: -5rem;
 }
@@ -127,7 +127,7 @@ header {
     margin-top:0;
 }
 
-/* Cards ===================== */
+/* =============== Cards =============== */
 .card {
     background: white;
     padding: 1.5rem 2rem;
@@ -210,7 +210,8 @@ header {
   }
 
 
-/* Table ===================== */
+/* =============== Table =============== */
+/* Na tabela estão todas as linhas de entradas e saídas */
 #transaction {
     display: block;
     width: 100%;

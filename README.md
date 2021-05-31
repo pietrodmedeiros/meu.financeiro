@@ -26,7 +26,7 @@
 ---------------------------------------
 
 #### Screenshoot
-![logo](https://github.com/pietrodmedeiros/meu.financeiro/blob/main/images/meu-financeiro-print.jpg)
+![logo](https://github.com/pietrodmedeiros/meu.financeiro/blob/gh-pages/images/meu-financeiro-print.jpg)
 
 
 -----------------------------------------
