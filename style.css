@@ -15,12 +15,15 @@
     font-size: 18px;
 }
 
-
 body {
     background: #d8dfd6;
     font-family:'Poppins', sans-serif;
 }
 
+#logo img {
+    width: 80%;
+    width: min(90vw, 900px);
+}
 .sr-only {
     position: absolute;
     overflow: hidden;
